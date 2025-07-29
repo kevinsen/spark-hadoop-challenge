@@ -108,16 +108,3 @@ Proporcione detalles sobre:
 ---
 
 **Nota:** Incluir las respuestas a las preguntas dentro del README.
-
-### Respuestas
-
-#### Commandos útiles:
-Docker image build \
-`docker build -t pyspark-notebook:latest .`
-
-Run jupyter-lab/notebook:
-```
-╰─± docker run -it --rm -p 8888:8888 -p 4040:4040 -v $(pwd):/home/jovyan/work pyspark-notebook:latest
-```
-
-
